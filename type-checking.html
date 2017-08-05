@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+        <title>type checking examples</title>
+		
+
+		<script>
+		
+				// Numbers
+				console.log("typeof 37 is " + typeof 37) ; //  'number';
+				console.log("typeof 3.14 is " + typeof 3.14) ; // 'number';
+				
+
+
+				// Strings
+				console.log("type of empty string is " + typeof ""); // 'string';
+				console.log('type of "bla" is ' + typeof "bla") ; // 'string';
+				
+
+
+				// Booleans
+				console.log("typeof true is " + typeof true ); // 'boolean';
+				console.log("typeof false is " + typeof false ); // 'boolean';
+				
+
+
+				// Undefined
+				console.log("typeof undefined is " +typeof undefined); // 'undefined';
+				var declaredButUndefinedVariable;
+				console.log("typeof declaredButUndefinedVariable is " +typeof declaredButUndefinedVariable); // 'undefined';
+				console.log("typeof undeclaredVariable is " +typeof undeclaredVariable); // 'undefined'; 
+
+
+				// Objects
+				console.log("type of {a:1} is " + typeof {a:1});// 'object';
+
+				// use Array.isArray or Object.prototype.toString.call
+				// to differentiate regular objects from arrays
+				console.log("type of array is " + typeof [1, 2, 4]); // 'object';
+				
+				
+		
+		</script>
+
+</head>
+
+<body>
+
+	<p>Press F12 to see the console output</p>
+
+</body>
+
+</html>
